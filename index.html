@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>DAT VIZ </title>
+    <meta charset="UTF-8">
+    <title>D3 Select</title>
+    <script src="https://d3js.org/d3.v5.js"></script>
 </head>
 <body>
-<h1> Hello </h1>
+<p>Here is a paragraph.</p>
+<p>And one more.</p>
+<script>
+    paragraphs = d3.select("p");
+    paragraphs.style("color", "steelblue");
+</script>
 </body>
 </html>
